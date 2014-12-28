@@ -1,7 +1,7 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='wine_env_powerline',
     version='1.0',
-    packages=find_packages()
+    packages=['wine_env_powerline']
 )
